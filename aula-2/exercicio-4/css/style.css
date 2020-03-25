@@ -10,7 +10,7 @@ body {
 
 /* FORM */
 .form {
-    width: 500px;
+    max-width: 500px;
     margin: 0 auto;
     margin-top: 50px;
 }
@@ -76,4 +76,22 @@ body {
 
 .btn_purple:hover {
     background-color: #3a006d;
+}
+
+@media screen and (max-width:600px){
+    label, form {
+        width: 100%;
+        text-align: center;
+        padding-bottom: 10px;
+        font-size: 1rem;
+        }
+
+    .teste {
+        display: block;
+        width: 100%;
+        align-items: center;
+    }
+    .half-col {
+        width: 75%
+    }
 }
