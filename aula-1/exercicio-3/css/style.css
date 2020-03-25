@@ -15,11 +15,10 @@ header {
     min-height: 180px;  
     align-items: center;  
 }
-header div {
+.header-caixa {
     align-items: center;
     display: flex;
 }
-
 
 h1 {
     font-weight: bold;
@@ -34,6 +33,7 @@ main {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
 }
 .todos div img {
     width: 250px;
