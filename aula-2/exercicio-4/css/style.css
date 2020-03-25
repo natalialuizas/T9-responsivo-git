@@ -17,6 +17,7 @@ body {
 
     .form > div {
         margin-top: 25px;
+        
     }
 
     label {
@@ -78,20 +79,13 @@ body {
     background-color: #3a006d;
 }
 
-@media screen and (max-width:600px){
-    label, form {
-        width: 100%;
-        text-align: center;
-        padding-bottom: 10px;
-        font-size: 1rem;
-        }
-
-    .teste {
-        display: block;
-        width: 100%;
+@media screen and (max-width:500px){
+    .form > div {
+        display: flex;
+        flex-direction: column;
         align-items: center;
-    }
-    .half-col {
-        width: 75%
+        }
+    label {
+        text-align: center;
     }
 }
